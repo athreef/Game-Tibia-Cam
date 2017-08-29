@@ -1,0 +1,7 @@
+.build/
+*.sw*
+.DS_Store
+Game-Tibia-Cam-*/
+Game-Tibia-Cam-*.tar.gz
+8.10/
+
