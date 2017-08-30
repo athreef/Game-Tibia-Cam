@@ -238,8 +238,8 @@ If RSA encryption is required, the OTServ RSA key is used.
 sub pcap {
     my $self = shift;
     my %args = (
-        @_,
-        synthesize_login => 1
+        synthesize_login => 1,
+        @_
     );
 
     my $fh = openhandle $args{file};
